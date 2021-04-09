@@ -1,7 +1,5 @@
 from setuptools import setup
 
-from .ratelimit import __version__
-
 def readme():
     '''Read README file'''
     with open('README.rst') as infile:
@@ -9,7 +7,7 @@ def readme():
 
 setup(
     name='ratelmt',
-    version=__version__,
+    version='2.2.1',
     description='API rate limit decorator',
     long_description=readme().strip(),
     author='Tomas Basham',
