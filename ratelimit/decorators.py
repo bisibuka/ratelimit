@@ -12,8 +12,9 @@ import time
 import sys
 import threading
 
-from ratelimit.exception import RateLimitException
-from ratelimit.utils import now
+from .exception import RateLimitException
+from .utils import now
+
 
 class RateLimitDecorator(object):
     '''
