@@ -1,4 +1,4 @@
-from ratelimit import limits, RateLimitException
+from ratelmt import limits, RateLimitException
 from tests import unittest, clock
 
 class TestDecorator(unittest.TestCase):
